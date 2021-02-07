@@ -33,7 +33,7 @@ app.post('/user/info', function(req, res){
   // we will be using postman as our client that will send the mock new user info here
   console.log(req.body)
 
-  // sending a response to the user that we received the request from the user
+  // sending a response to the user that we received a successful request from the user
   res.json({success: true})
 })
 

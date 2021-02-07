@@ -39,7 +39,7 @@ app.get("/goodbye/:id", function(req,res){
 	res.send(`welcome to express id#${id}`)
 });
 
-//telling your server to listen on this port, meaning your application will run on this port
+//telling your server to listen on this port, meaning your application will run on port 3000
 //this is the file to you will run using 'node express.js' in order to start up your server and set up your application routes
 //you can now access your page by going to 'http://localhost:3000/<whatever routes you set up>'
 app.listen(3000, function(){

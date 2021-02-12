@@ -18,7 +18,9 @@ const app = express();
 
 	Then, you put the callback "function(req,res){ }"
 	'req' holds information about the "request" that you're sending
+
 	'res' is how you're responding, or your 'response' to the 'request'
+	The action that is taken when the "/" route is hitt
 
 	When this application is running on our server (http://localhost:3000),
 	and this route is hit (http://localhost:3000/),

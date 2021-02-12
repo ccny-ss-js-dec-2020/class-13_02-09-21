@@ -36,7 +36,7 @@ app.get("/goodbye/:id", function(req,res){
 	//logging that this route/request was hit
 	console.log(`got request for "/goodbye/${id}"`)
 	//sending this message back to the client
-	res.send(`welcome to express id#${id}`)
+	res.send(`welcome to express id #${id}`)
 });
 
 //telling your server to listen on this port, meaning your application will run on port 3000

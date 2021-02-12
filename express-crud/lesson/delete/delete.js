@@ -20,7 +20,7 @@ app.use(bodyParser.json({ type: 'application/vnd.api+json'}));
 
 /*
   DELETE REQUEST that receives id from route param and then proceeds to delete
-  Using express, the syntax for a "get" is using "app.delete", like below
+  Using express, the syntax for a "delete" is using "app.delete", like below
 */
 app.delete('/user/:id', function(req, res){
   // mocking users
